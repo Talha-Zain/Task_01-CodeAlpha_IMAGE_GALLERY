@@ -1,3 +1,5 @@
+**Task 01 CodeAlpha Internship Program**
+
 Welcome to the repository for Task 01 of the CodeAlpha Internship Program. This repository features the project work completed as part of the first task assigned during my internship at CodeAlpha. The task focuses on creating an image gallery where users can view and navigate their images in one place.
 
 **Project Details:**
