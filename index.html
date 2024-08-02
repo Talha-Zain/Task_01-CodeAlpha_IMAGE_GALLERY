@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talha IMAGE GALLERY</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Talha's Image Gallery</h1>
+      <p>Explore the beautiful collection of images</p>
+    </header>
+    <div class="one-img-box" id="oneImgBox">
+      <button class="nav-btn left" onclick="prevImg()">&#10094;</button>
+      <div class="img-container">
+        <img src="images/image1.jpg" alt="image1" id="oneImg" />
+      </div>
+      <button class="nav-btn right" onclick="nextImg()">&#10095;</button>
+      <span onclick="closeOneImg()">&#10006;</span>
+    </div>
+    <div class="image-gallery">
+      <div class="img-container"><img src="images/image1.jpg" alt="image1" onclick="openOneImg(this.src, 0)" /></div>
+      <div class="img-container"><img src="images/image2.jpg" alt="image2" onclick="openOneImg(this.src, 1)" /></div>
+      <div class="img-container"><img src="images/image3.jpg" alt="image3" onclick="openOneImg(this.src, 2)" /></div>
+      <div class="img-container"><img src="images/image4.jpg" alt="image4" onclick="openOneImg(this.src, 3)" /></div>
+      <div class="img-container"><img src="images/image5.jpg" alt="image5" onclick="openOneImg(this.src, 4)" /></div>
+      <div class="img-container"><img src="images/image6.jpg" alt="image6" onclick="openOneImg(this.src, 5)" /></div>
+      <div class="img-container"><img src="images/image7.jpg" alt="image7" onclick="openOneImg(this.src, 6)" /></div>
+      <div class="img-container"><img src="images/image8.jpg" alt="image8" onclick="openOneImg(this.src, 7)" /></div>
+      <div class="img-container"><img src="images/image9.jpg" alt="image9" onclick="openOneImg(this.src, 8)" /></div>
+      <div class="img-container"><img src="images/image10.jpg" alt="image10" onclick="openOneImg(this.src, 9)" /></div>
+      <div class="img-container"><img src="images/image11.jpg" alt="image11" onclick="openOneImg(this.src, 10)" /></div>
+      <div class="img-container"><img src="images/image12.jpg" alt="image12" onclick="openOneImg(this.src, 11)" /></div>
+      <div class="img-container"><img src="images/image13.jpg" alt="image13" onclick="openOneImg(this.src, 12)" /></div>
+      <div class="img-container"><img src="images/image14.jpg" alt="image14" onclick="openOneImg(this.src, 13)" /></div>
+      <div class="img-container"><img src="images/image15.jpg" alt="image15" onclick="openOneImg(this.src, 14)" /></div>
+      <div class="img-container"><img src="images/image16.jpg" alt="image16" onclick="openOneImg(this.src, 15)" /></div>
+      <div class="img-container"><img src="images/image17.jpg" alt="image17" onclick="openOneImg(this.src, 16)" /></div>
+      <div class="img-container"><img src="images/image18.jpg" alt="image18" onclick="openOneImg(this.src, 17)" /></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
