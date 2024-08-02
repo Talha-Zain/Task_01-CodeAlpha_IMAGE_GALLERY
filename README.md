@@ -11,22 +11,6 @@ less size images
 Auto navigate after 5 seconds
 Full image view facility
 
-Installation
-To run this project locally, follow these steps:
-
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/repository-name.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd repository-name
-Open the project in your preferred code editor or IDE.
-
-Open index.html in a web browser to view the project.
 
 
 
