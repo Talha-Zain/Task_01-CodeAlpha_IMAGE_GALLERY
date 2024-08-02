@@ -1,3 +1,5 @@
+
+
 let oneImgBox = document.getElementById("oneImgBox");
 let oneImg = document.getElementById("oneImg");
 let currentIndex = 0;
